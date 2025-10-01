@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import NavItems from './NavItems'
 
 const Header = () => {
   return (
@@ -13,6 +14,7 @@ const Header = () => {
         </Link>
 
             {/* NavItems */}
+            <NavItems/>
         </div>
     </div>
   )
